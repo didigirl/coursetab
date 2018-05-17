@@ -1,0 +1,53 @@
+{"pages":[
+ 
+  "pages/leadcourse/leadcourse",
+ 
+ 
+   "pages/homepage/homepage",
+   "pages/userinfo/userinfo",
+  "pages/select/select"
+          
+         
+          ],
+"window":{
+  "navigationBarBackgroundColor":"#000000",
+  "navigationBarTitleText":"上课啦",
+  "navigationBarTitleStyle":"black",
+  "backgroundColor":"yellow"
+  
+
+  
+         },
+         "tabBar":
+         { 
+           "list":
+              [ 
+              {
+                "text":"查找",
+                "pagePath": "pages/select/select",
+                "iconPath": "images/select1.png",
+                "selectedIconPath": "images/select.png"
+              },
+              {
+                "text": "课表",
+                "pagePath": "pages/homepage/homepage",
+                "iconPath": "images/course1.png",
+                "selectedIconPath": "images/course.png"
+              },
+              
+                {
+                  "text": "我",
+                  "pagePath": "pages/userinfo/userinfo",
+                  "iconPath": "images/user1.png",
+                  "selectedIconPath": "images/user.png"
+                }
+                ]
+              
+
+
+              
+
+            
+
+          }
+}

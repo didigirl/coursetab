@@ -1,0 +1,8 @@
+.mystyle
+{
+  width:90%;
+  margin-top:100rpx;
+ color: black;
+ background-color:#ffff99;
+ border:0;
+}

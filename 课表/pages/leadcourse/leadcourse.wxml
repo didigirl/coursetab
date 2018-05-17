@@ -1,0 +1,64 @@
+
+<view class="swiper-tab">  
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">学校导入课表</view>  
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">手动添加课表</view>  
+   </view>
+
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight-31}}px" bindchange="bindChange">
+<swiper-item>
+
+<view class="ander">
+    <input name="coursename" placeholder="请输入网址" auto-focus/>
+  </view>
+  </swiper-item>
+<swiper-item>
+<view class="adduser">
+<form bindsubmit="formSubmit "bindrest="formReset">
+
+  <view class="section">
+  <view class='form-group'>课程名称:</view>
+  <view class=''>
+    <input name="coursename" placeholder="请输入课程名称" auto-focus/>
+  </view>
+  </view>
+  
+  
+  <view class="section">
+  <view class='form-group'>上课节数:</view>
+  <view class='form-group'>
+    <input name="coursetime" type="text" placeholder="请输入上课节数"/>
+  </view>
+  </view>
+  
+  <view class="section">
+  <view class='form-group'>上课周数:</view>
+  <view class='form-group'>
+    <input name="courseweek" placeholder="请输入上课周数" auto-focus/>
+  </view>
+  </view>
+
+  <view class="section">
+  <view class='form-group'>上课地点:</view>
+  <view class='form-group'>
+    <input name="courseplace" placeholder="请输入上课地点" auto-focus/>
+  </view>
+  </view>
+
+  <view class="section">
+  <view class='form-group'>任课教师:</view>
+  <view class='form-group'>
+    <input name="teacher" placeholder="请输入任课教师" auto-focus/>
+  </view>
+  </view>
+ 
+    <view class="section btn-area">
+      <button formType="submit">提交</button>
+      <button formType="reset">重置</button>
+    </view>
+      </form>
+
+     
+ </view>
+</swiper-item>
+</swiper>
+

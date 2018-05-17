@@ -1,0 +1,67 @@
+
+.swiper-tab{  
+    width: 100%;  
+    border-bottom: 2rpx solid #777777;  
+    text-align: center;  
+    line-height: 80rpx;
+    background-color: #ffff99}  
+.swiper-tab-list{  font-size: 30rpx;  
+    display: inline-block;  
+    width: 33.33%;  
+    color: #777777;  
+}  
+.on{ color: #da7c0c;  
+    border-bottom: 5rpx solid #da7c0c;}  
+  
+.swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; }  
+.swiper-box view{  
+    text-align: center;  
+}  
+.continer
+{
+ align-items:center;
+ font-size: 22px;
+background-color: #ffff00;
+display:flex;
+height:130rpx;
+padding-left: 230rpx;
+padding-right:50rpx;
+}
+#adduser{  
+    background: #f5f5f5;  
+}  
+.section__title{  
+    float: left;  
+    width:30%;  
+}  
+.form-group{  
+  display:inline-block;
+  
+    width: 70%;  
+}  
+.section{ 
+
+  display:flex; 
+    clear: both;  
+    width:90%;  
+    margin: 2rem auto;  
+
+}  
+.input-text{  
+    border: 1px solid #ddd;  
+}  
+.button{  
+    border: 1px solid #1aad19;  
+    border-radius: 2px;  
+}  
+.picker{  
+    padding: 13px;  
+    background-color: #FFFFFF;  
+}  
+.ander{
+  display:flex;
+margin-top: 300rpx;
+border: 1px solid #ddd;  
+border-width: 10px;
+height:80rpx;
+}
